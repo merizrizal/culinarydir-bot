@@ -1,0 +1,122 @@
+2019-06-21 15:39:33 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "bot-hook/index". in /home/meriz/www/html/asikmakanv21/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/meriz/www/html/asikmakanv21/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('bot-hook/index', Array)
+#1 /home/meriz/www/html/asikmakanv21/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/meriz/www/html/asikmakanv21/engine/telegrambot/web/index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Halaman tidak ditemukan. in /home/meriz/www/html/asikmakanv21/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/meriz/www/html/asikmakanv21/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/meriz/www/html/asikmakanv21/engine/telegrambot/web/index.php(20): yii\base\Application->run()
+#2 {main}
+2019-06-21 15:39:33 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'api-asikmakan' => '711j4i7stvr2ktfue8qnl670n4'
+    '_csrf' => '5162063d69eb5db304f9ad8c02491479d5881159c67b27c84c7b21f53b0732e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"08ZinjpeMIp-HHZSK53H3U7jTKkNbr1j\";}'
+    'front-asikmakan' => 'iuna8r7f22j8h5rp8fco9vp24g'
+    '_csrf-front-asikmakan-synctech' => 'bdaf73d7e29fd540e8bd53fc5595a98e635fd47111e42cfbd1e8e9cdfcef2451a:2:{i:0;s:30:\"_csrf-front-asikmakan-synctech\";i:1;s:32:\"_Xa7YTtr22oq4OOQ0-FUCFe6OZtpqToT\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'c818cefd-7f72-4e65-acaa-880224104c90'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.6.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => 'api-asikmakan=711j4i7stvr2ktfue8qnl670n4; _csrf=5162063d69eb5db304f9ad8c02491479d5881159c67b27c84c7b21f53b0732e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2208ZinjpeMIp-HHZSK53H3U7jTKkNbr1j%22%3B%7D; front-asikmakan=iuna8r7f22j8h5rp8fco9vp24g; _csrf-front-asikmakan-synctech=bdaf73d7e29fd540e8bd53fc5595a98e635fd47111e42cfbd1e8e9cdfcef2451a%3A2%3A%7Bi%3A0%3Bs%3A30%3A%22_csrf-front-asikmakan-synctech%22%3Bi%3A1%3Bs%3A32%3A%22_Xa7YTtr22oq4OOQ0-FUCFe6OZtpqToT%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/synctech'
+    'CONTEXT_DOCUMENT_ROOT' => '/home/meriz/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/meriz/www/html/asikmakanv21/engine/telegrambot/web/index.php'
+    'REMOTE_PORT' => '37322'
+    'REDIRECT_URL' => '/synctech/asikmakanv21/engine/telegrambot/web/bot-hook/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/synctech/asikmakanv21/engine/telegrambot/web/bot-hook/index'
+    'SCRIPT_NAME' => '/synctech/asikmakanv21/engine/telegrambot/web/index.php'
+    'PHP_SELF' => '/synctech/asikmakanv21/engine/telegrambot/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1561131573.877
+    'REQUEST_TIME' => 1561131573
+]
+2019-06-21 15:39:34 [::1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "bot-hook/index". in /home/meriz/www/html/asikmakanv21/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/meriz/www/html/asikmakanv21/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('bot-hook/index', Array)
+#1 /home/meriz/www/html/asikmakanv21/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/meriz/www/html/asikmakanv21/engine/telegrambot/web/index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Halaman tidak ditemukan. in /home/meriz/www/html/asikmakanv21/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/meriz/www/html/asikmakanv21/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/meriz/www/html/asikmakanv21/engine/telegrambot/web/index.php(20): yii\base\Application->run()
+#2 {main}
+2019-06-21 15:39:34 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'api-asikmakan' => '711j4i7stvr2ktfue8qnl670n4'
+    '_csrf' => '5162063d69eb5db304f9ad8c02491479d5881159c67b27c84c7b21f53b0732e2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"08ZinjpeMIp-HHZSK53H3U7jTKkNbr1j\";}'
+    'front-asikmakan' => 'iuna8r7f22j8h5rp8fco9vp24g'
+    '_csrf-front-asikmakan-synctech' => 'bdaf73d7e29fd540e8bd53fc5595a98e635fd47111e42cfbd1e8e9cdfcef2451a:2:{i:0;s:30:\"_csrf-front-asikmakan-synctech\";i:1;s:32:\"_Xa7YTtr22oq4OOQ0-FUCFe6OZtpqToT\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'd44b133c-9f43-42fc-880d-fd9b4373d62d'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.6.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_COOKIE' => 'api-asikmakan=711j4i7stvr2ktfue8qnl670n4; _csrf=5162063d69eb5db304f9ad8c02491479d5881159c67b27c84c7b21f53b0732e2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2208ZinjpeMIp-HHZSK53H3U7jTKkNbr1j%22%3B%7D; front-asikmakan=iuna8r7f22j8h5rp8fco9vp24g; _csrf-front-asikmakan-synctech=bdaf73d7e29fd540e8bd53fc5595a98e635fd47111e42cfbd1e8e9cdfcef2451a%3A2%3A%7Bi%3A0%3Bs%3A30%3A%22_csrf-front-asikmakan-synctech%22%3Bi%3A1%3Bs%3A32%3A%22_Xa7YTtr22oq4OOQ0-FUCFe6OZtpqToT%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/synctech'
+    'CONTEXT_DOCUMENT_ROOT' => '/home/meriz/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/meriz/www/html/asikmakanv21/engine/telegrambot/web/index.php'
+    'REMOTE_PORT' => '37322'
+    'REDIRECT_URL' => '/synctech/asikmakanv21/engine/telegrambot/web/bot-hook/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/synctech/asikmakanv21/engine/telegrambot/web/bot-hook/index'
+    'SCRIPT_NAME' => '/synctech/asikmakanv21/engine/telegrambot/web/index.php'
+    'PHP_SELF' => '/synctech/asikmakanv21/engine/telegrambot/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1561131574.854
+    'REQUEST_TIME' => 1561131574
+]
