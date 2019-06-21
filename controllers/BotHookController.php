@@ -58,6 +58,9 @@ class BotHookController extends \yii\rest\Controller
             case 'bye':
                 $text = 'bye juga kak. sampai jumpa lagi';
                 break;
+
+            default:
+                $text = 'hmm saya gk ngerti, bisa diulang?';
         }
 
         $client = new Client();
