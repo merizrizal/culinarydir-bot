@@ -43,13 +43,30 @@ class BotHookController extends \yii\rest\Controller
 
         $post = \Yii::$app->request->post();
 
+        $text = '';
+
+        switch ($post['message']['text']) {
+
+            case 'hai':
+                $text = 'hai juga kak';
+                break;
+
+            case 'apa kabar?':
+                $text = 'kabar baik. kalo kakak gimana kabarnya nih?';
+                break;
+
+            case 'bye':
+                $text = 'bye juga kak. sampai jumpa lagi';
+                break;
+        }
+
         $client = new Client();
         $response = $client->createRequest()
             ->setMethod('POST')
             ->setUrl('https://api.telegram.org/bot557170275:AAGwiZs-bNX_tiOHzqH_4wonYL5hwaoQtSg/sendMessage')
             ->setData([
                 'chat_id' => '899157364',
-                'text' => $post['message']['text']
+                'text' => $text
             ])
             ->send();
 
