@@ -1,7 +1,6 @@
 <?php
 namespace bot\controllers;
 
-use yii\filters\VerbFilter;
 
 class BotHookController extends \yii\rest\Controller
 {
@@ -16,7 +15,7 @@ class BotHookController extends \yii\rest\Controller
                 'verbs' => [
                     'class' => VerbFilter::className(),
                     'actions' => [
-
+                        'index' => ['GET']
                     ],
                 ],
             ]
@@ -28,7 +27,7 @@ class BotHookController extends \yii\rest\Controller
      */
     public function actions()
     {
-        $this->layout = 'zerso';
+        $this->layout = 'zero';
 
         return [
             'error' => [
@@ -40,6 +39,8 @@ class BotHookController extends \yii\rest\Controller
 
     public function actionIndex() {
 
-        return 1;
+
+
+        return true;
     }
 }
