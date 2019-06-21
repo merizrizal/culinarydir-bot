@@ -49,7 +49,7 @@ class BotHookController extends \yii\rest\Controller
             ->setUrl('https://api.telegram.org/bot557170275:AAGwiZs-bNX_tiOHzqH_4wonYL5hwaoQtSg/sendMessage')
             ->setData([
                 'chat_id' => '899157364',
-                'text' => $post
+                'text' => json_encode($post)
             ])
             ->send();
 
