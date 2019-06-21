@@ -17,7 +17,7 @@ class BotHookController extends \yii\rest\Controller
                 'verbs' => [
                     'class' => VerbFilter::className(),
                     'actions' => [
-                        'index' => ['GET']
+                        'index' => ['POST']
                     ],
                 ],
             ]
