@@ -66,7 +66,7 @@ class BotHookController extends \yii\rest\Controller
         $client = new Client();
         $response = $client->createRequest()
             ->setMethod('POST')
-            ->setUrl('https://api.telegram.org/bot557170275:AAGwiZs-bNX_tiOHzqH_4wonYL5hwaoQtSg/sendMessage')
+            ->setUrl('the-url-of-telegram-api')
             ->setData([
                 'chat_id' => $post['message']['chat']['id'],
                 'text' => $text
